@@ -37,7 +37,11 @@ HEADERS += \
     facebook/facebookimagedownloaderconstants_p.h \
     facebook/facebookpostsmodel.h \
     facebook/facebooknotificationsmodel.h \
-    twitter/twitterpostsmodel.h
+    twitter/twitterpostsmodel.h \
+    generic/genericimagecachemodel.h \
+    generic/genericimagedownloader.h \
+    generic/genericimagedownloader_p.h \
+    generic/genericimagedownloaderconstants_p.h
 
 SOURCES += plugin.cpp \
     abstractsocialcachemodel.cpp \
@@ -45,7 +49,9 @@ SOURCES += plugin.cpp \
     facebook/facebookimagedownloader.cpp \
     facebook/facebookpostsmodel.cpp \
     facebook/facebooknotificationsmodel.cpp \
-    twitter/twitterpostsmodel.cpp
+    twitter/twitterpostsmodel.cpp \
+    generic/genericimagecachemodel.cpp \
+    generic/genericimagedownloader.cpp \
 
 OTHER_FILES += qmldir
 import.files = qmldir

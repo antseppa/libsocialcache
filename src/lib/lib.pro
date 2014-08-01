@@ -28,7 +28,8 @@ HEADERS = \
     facebooknotificationsdatabase.h \
     facebookpostsdatabase.h \
     twitterpostsdatabase.h \
-    caldavcalendardatabase.h
+    caldavcalendardatabase.h \
+    genericimagesdatabase.h
 
 SOURCES = \
     semaphore_p.cpp \
@@ -44,7 +45,8 @@ SOURCES = \
     facebooknotificationsdatabase.cpp \
     facebookpostsdatabase.cpp \
     twitterpostsdatabase.cpp \
-    caldavcalendardatabase.cpp
+    caldavcalendardatabase.cpp \
+    genericimagesdatabase.cpp
 
 headers.files = $$HEADERS
 headers.path = /usr/include/socialcache
